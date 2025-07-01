@@ -52,7 +52,7 @@ useEffect(() => {
 
   const resellerInfo = async () => {
     try {
-      const response = await fetch('https://nova-psi-five.vercel.app/reseller/info', {
+      const response = await fetch('https://novatv.onrender.com/reseller/info', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
